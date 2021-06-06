@@ -51,12 +51,14 @@ width: 430px;
 
 .p {
     display: none;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
     position: relative;
     padding: 20px;
     align-items: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2em;
+    margin-top: -50px;
+    color: rgb(255, 252, 252);
   }
   
   .favorite:hover p {
@@ -80,16 +82,22 @@ width: 430px;
 /* ======================================= */
 /* start of footer */
 .footer{
+    display: flex;
     padding: auto;
     height: 200px;
     background-color: peachpuff;
     margin-top: 40px;
 }
-.btn{
-    margin-left: 90%;
-    margin-top: 100px;
-    background-color: red;
-    height: 50px;
-    width: 110px;
-    font-size: 20px;
-}
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
