@@ -30,15 +30,38 @@ h1{
 }
 /* styling the pictures of the members */
 .container{
-    display: flex;
+    position: relative;
+    display: flex;                  
+    flex-direction: row;            
+    flex-wrap: nowrap;             
+    justify-content: space-between; 
+    background-color: tan;
+    align-items: left;
+    margin-top: 60px;
 }
 .men1, .men2, .men3, .men4{
     padding: auto;
-    margin-left: auto;
-    margin-top:20px;
+    margin: auto;
 }
 .shawn, .mc, .nathan, .wanya{
 width: 430px;
-object-fit: cover;
-align-self: auto;
+}
+/* psuedo class create interlactions */
+
+
+
+.footer{
+    height: 200px;
+}
+.favorite{
+    display: flex;
+    position: relative;
+    flex-direction: row;            
+    flex-wrap: nowrap;             
+    justify-content: space-between; 
+}
+.vid, .vid1, .vid2, .vid3{
+    height: 300px;
+    width: 450px;
+    
 }
