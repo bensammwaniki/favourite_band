@@ -1,5 +1,30 @@
+body{
+    background-color: rosybrown;
+    margin: 30px,30px,30px,30px;
+    border: solid, 10px, rgba(rgb(255, 252, 252), rgb(198, 255, 198), rgb(0, 0, 231), 0);
+    padding: auto;
+
+
+}
+/* adjust picture dimensions to fit the sreen */
 .bground{
-   margin-left:20px;
-    width: 200%;
+    background-image: url(images/image3.jpeg);
+    padding: auto;
+    height: 700px;
+    width: 1820px;
+    object-fit: cover;
+}
+h1{
+    font-family: 'Ultra', serif;    
+    font-size: 100px;
+    text-align: center;
+    color: seashell;
+}
+.desc{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Mate SC', serif;
+    color: snow;
 
 }
