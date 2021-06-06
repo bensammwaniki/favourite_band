@@ -28,3 +28,17 @@ h1{
     color: snow;
 
 }
+/* styling the pictures of the members */
+.container{
+    display: flex;
+}
+.men1, .men2, .men3, .men4{
+    padding: auto;
+    margin-left: auto;
+    margin-top:20px;
+}
+.shawn, .mc, .nathan, .wanya{
+width: 430px;
+object-fit: cover;
+align-self: auto;
+}
